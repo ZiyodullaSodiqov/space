@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+#two-body{
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url('./images/background.webp');
+    background-attachment: fixed;
+}
+.mr-23{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.text-y2{
+    font-weight: 700 !important;
+    color: #fff !important;
+}
+.text-div{
+    transform: translateY(260px);
+}
+#header{
+    width: 100%;
+    height: 640px;
+    background-color: #1E0349;
+}
+.selection-text{
+    transform: translateY(100px);
+}
+.box-div{
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(116, 35, 246);
+}
+.academy{
+    width: 100%;
+    transform: translateY(200px);
+}
+#navbar {
+    overflow: hidden;
+    background-color: transparent;
+    padding: 90px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transform: translateX(-120px);
+    z-index: 99;
+  }
+  
+  #navbar a {
+    float: left !important;
+    color: black !important;
+    text-align: center !important;
+    padding: 12px !important;
+    text-decoration: none !important;
+    font-size: 18px !important; 
+    line-height: 25px !important;
+    border-radius: 4px !important;
+  }
+  
+  #navbar #logo {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    transition: 0.4s !important;
+  }
+  #home{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  #navbar a.active {
+    color: #000 !important;
+  }
+  
+  #navbar-right {
+    float: right !important;
+  }
+.form{
+    width: 100%;
+    height: 1200px;
+    background: #1E0349;    
+
+}
+#inp-name{
+    outline: none;
+    border: none;
+    width: 382px;
+    height: 46px;
+    padding-left: 10px;
+    background-color: #333333;   
+    color: #f1f1f1;
+}
+#inp-email{
+    outline: none;
+    border: none;
+    width: 382px;
+    height: 46px;
+    padding-left: 10px;
+    background-color: #333333;   
+    color: #f1f1f1;
+    transform: translateY(20px);
+}
+#inp-message{
+    outline: none;
+    border: none;
+    width: 382px;
+    padding-left: 10px;
+    background-color: #333333;   
+    color: #f1f1f1;
+    transform: translateY(40px);
+}
+#post-form{
+    transform: translate(440px , 200px);
+}
+#btn-sended{
+    transform: translate( -263px , 88px);
+    padding: 14px 28px;
+    outline: none;
+    border: none;
+    width: 132px;
+    height: 48px;
+    background-color: #6f2deb;
+}
+#btn-sended > a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.card-div{
+    transform: translate(160px , 350px);
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background: #000;
+}
+.fotter-row{
+    transform: translateY(50px);
+}
